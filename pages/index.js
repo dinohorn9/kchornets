@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import uniformPic from '/public/images/uniforms.jpg'
 
 export default function Home() {
   return (
@@ -56,25 +57,30 @@ export default function Home() {
               <p>
                 <b>Fall Tournaments:</b>
                 <br />
-                September 11th-13th:{" "}
+                September 11th-13th:
+                <br />
                 <span className="text-yellow-400 font-bold">
                   3&2 Sonic Blast
                 </span>
                 <br />
-                September 25th-27th:{" "}
+                September 25th-27th:
+                <br />
                 <span className="text-yellow-400 font-bold">
                   3&2 Stars and Stripes (Optional)
                 </span>
                 <br />
-                October 2nd-4th:{" "}
+                October 2nd-4th:
+                <br />
                 <span className="text-yellow-400 font-bold">Monster Bash</span>
                 <br />
-                October 15th-18th:{" "}
+                October 15th-18th:
+                <br />
                 <span className="text-yellow-400 font-bold">
                   3&2 October Fest
                 </span>
                 <br />
               </p>
+              <Image src={uniformPic} alt="KC Hornets Uniforms" />
             </div>
             <div className="flex items-center">
               <div className="text-sm">
