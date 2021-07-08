@@ -3,12 +3,12 @@ import Navbar from "./navbar";
 
 function Layout({ children }) {
     return (
-        <div>
+        <>
             <Navbar />
             {children}
             <Footer />
             
-        </div>
+        </>
     )
 }
 

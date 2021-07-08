@@ -26,8 +26,8 @@ function about() {
             the spring. Other than that, the player is responsible for paying
             the cost of the uniform, apparel and bags. All our invoices are
             shared with the parents / guardians. (BB Only)
-          </p>
-          11U/AA Baseball Team (Golden Glove) 9U/A Softball Team
+          </p><p>11U/AA Baseball Team (Golden Glove)<br></br> 9U/A Softball Team</p>
+          
         </div>
       </div>
     </>

@@ -28,35 +28,34 @@ function Navbar() {
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div className="text-sm lg:flex-grow">
           <Link href="/about">
-            <a className="block mt-4 lg:inline-block lg:mt-0 text-yellow-200 hover:text-white mr-4">
-              About
+            <a className="block mt-4 lg:inline-block lg:mt-0 text-yellow-200 hover:text-white mr-4 no-underline">
+              ABOUT
             </a>
           </Link>
 
           <Link href="/development">
-            <a className="block mt-4 lg:inline-block lg:mt-0 text-yellow-200 hover:text-white mr-4">
-              Development
+            <a className="block mt-4 lg:inline-block lg:mt-0 text-yellow-200 hover:text-white mr-4 no-underline">
+              DEVELOPMENT
             </a>
           </Link>
           <Link href="/qualities">
-            <a className="block mt-4 lg:inline-block lg:mt-0 text-yellow-200 hover:text-white mr-4">
-              Qualities
+            <a className="block mt-4 lg:inline-block lg:mt-0 text-yellow-200 hover:text-white mr-4 no-underline">
+              QUALITES
             </a>
           </Link>
 
           <Link href="/coaching">
-            <a className="block mt-4 lg:inline-block lg:mt-0 text-yellow-200 hover:text-white">
-              Coaching
+            <a className="block mt-4 lg:inline-block lg:mt-0 text-yellow-200 hover:text-white no-underline">
+              COACHING
             </a>
           </Link>
         </div>
         <div>
-          <a
-            href="/tryout"
-            className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-yellow-500 hover:bg-white mt-4 lg:mt-0"
-          >
-            Tryout Info
-          </a>
+          <Link href="/tryout">
+            <a className="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-yellow-500 hover:bg-white mt-4 lg:mt-0">
+              Tryout Info
+            </a>
+          </Link>
         </div>
       </div>
     </nav>
