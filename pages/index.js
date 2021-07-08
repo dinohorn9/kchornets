@@ -40,13 +40,7 @@ export default function Home() {
               </p>
             </div>
             <div className="flex items-center">
-              <Image
-                src={"./images/jonathan.jpg"}
-                className="w-10 h-10 rounded-full mr-4"
-                height="40"
-                width="40"
-                alt="Avatar of Jonathan Reinink"
-              ></Image>
+              
               <div className="text-sm">
                 <p className="text-yellow-900 leading-none">Jonathan Reinink</p>
                 <p className="text-yellow-600">Aug 18</p>
