@@ -11,8 +11,8 @@ export default function Home() {
           content="kansas city, overland park, ks, 11u, AA, Baseball, Softball, Blue Valley Rec"
         />
       </Head>
-      <div className="container dark:bg-gray-900 dark:text-white w-full">
-        <div className="w-full p-4  dark:bg-gray-900 dark:text-white ">
+      <div className="container w-full">
+        <div className="w-full p-4 ">
           {/* <div
             className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
             style={{ backgroundImage: "url('/images/card-left.jpg')" }}
