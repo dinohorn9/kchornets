@@ -11,8 +11,8 @@ export default function Home() {
           content="kansas city, overland park, ks, 11u, AA, Baseball, Softball, Blue Valley Rec"
         />
       </Head>
-      <div className="container dark:bg-gray-800 dark:text-white w-full">
-        <div className="w-full p-4">
+      <div className="container dark:bg-gray-900 dark:text-white w-full">
+        <div className="w-full p-4  dark:bg-gray-900 dark:text-white ">
           {/* <div
             className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
             style={{ backgroundImage: "url('/images/card-left.jpg')" }}
@@ -41,8 +41,40 @@ export default function Home() {
                 <br />
                 <b>Arrival:</b> 11:45am
               </p>
-              <p>Contact Us: dinohorn9@gmail.com</p>
-              <p>Phone: 913.306.1393</p>
+              <p>
+                <b>Contact Us:</b> dinohorn9@gmail.com
+              </p>
+              <p>
+                <b>Call/Text:</b> 913.306.1393
+              </p>
+              <p>
+                <b>Tryout Notes:</b> The team this fall will play about 10 games
+                in the Blue Valley Rec Golden Glove 11u AA league. We will play
+                in at least three 11u AA tournaments during September and
+                October.
+              </p>
+              <p>
+                <b>Fall Tournaments:</b>
+                <br />
+                September 11th-13th:{" "}
+                <span className="text-yellow-400 font-bold">
+                  3&2 Sonic Blast
+                </span>
+                <br />
+                September 25th-27th:{" "}
+                <span className="text-yellow-400 font-bold">
+                  3&2 Stars and Stripes (Optional)
+                </span>
+                <br />
+                October 2nd-4th:{" "}
+                <span className="text-yellow-400 font-bold">Monster Bash</span>
+                <br />
+                October 15th-18th:{" "}
+                <span className="text-yellow-400 font-bold">
+                  3&2 October Fest
+                </span>
+                <br />
+              </p>
             </div>
             <div className="flex items-center">
               <div className="text-sm">
@@ -66,11 +98,14 @@ export default function Home() {
                 Members only
               </p> */}
               <div className="text-gray-900 font-bold text-xl mb-2">
-                Moved kchornets.com 
+                Moved kchornets.com
               </div>
-      
-              <p>This week we moved kchornets.com to a new server with new software, so we were down a few days. DNS proprogation takes a little time.</p>
-             
+
+              <p>
+                This week we moved kchornets.com to a new server with new
+                software, so we were down a few days. DNS proprogation and
+                content formatting takes a little time.
+              </p>
             </div>
             <div className="flex items-center">
               <div className="text-sm">
@@ -79,9 +114,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-          </div>
         </div>
-    
+      </div>
     </>
   );
 }

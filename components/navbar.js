@@ -26,7 +26,7 @@ function Navbar() {
         </button>
       </div>
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-        <div className="text-sm lg:flex-grow">
+        <div className="text-sm lg:flex-grow hidden">
           <Link href="/about">
             <a className="block mt-4 lg:inline-block lg:mt-0 text-yellow-200 hover:text-white mr-4 no-underline">
               ABOUT
@@ -50,7 +50,7 @@ function Navbar() {
             </a>
           </Link>
         </div>
-        <div>
+        <div hidden>
           <Link href="/tryout">
             <a className="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-yellow-500 hover:bg-white mt-4 lg:mt-0">
               Tryout Info
