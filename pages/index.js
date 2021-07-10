@@ -36,7 +36,7 @@ export default function Home() {
               </div>
               <p className="text-gray-700 text-base">
                 <b className="text-red-500">Status:</b> We are rained out this afternoon. This first tryout has been rescheduled to Tuesday, July 13th at 6-8pm.  Please contact me 
-                if you can make this tryout. The forecast for the 17th doesn't look good either.  Thanks!
+                if you can make this tryout. The forecast for the 17th does not look good either.  Thanks!
                 <br />
               </p>
               <p>
