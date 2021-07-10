@@ -32,7 +32,7 @@ export default function Home() {
                 Members only
               </p> */}
               <div className="text-gray-900 font-bold text-xl mb-2">
-                KC Hornet 11u AA BB Tryout Update
+                KC Hornets 11u AA BB Tryout Update
               </div>
               <p className="text-gray-700 text-base">
                 <b className="text-red-500">Status:</b> We are rained out this afternoon. This first tryout has been rescheduled to Tuesday, July 13th at 6-8pm.  Please contact me 
@@ -73,7 +73,7 @@ export default function Home() {
                 Members only
               </p> */}
               <div className="text-gray-900 font-bold text-xl mb-2">
-                KC Hornet 11u AA Baseball Fall Tryout Info
+                KC Hornets 11u AA Baseball Fall Tryout Info
               </div>
               <p className="text-gray-700 text-base">
                 <b>Dates:</b> July 10th and July 17th 2021
