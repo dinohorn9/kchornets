@@ -35,7 +35,7 @@ export default function Home() {
                 KC Hornet 11u AA BB Tryout Update
               </div>
               <p className="text-gray-700 text-base">
-                <b className="text-red-500">Today's Status:</b> We are rained out this afternoon. This first tryout has been rescheduled to Tuesday, July 13th @ 6-8pm.  Please contact me 
+                <b className="text-red-500">Today's Status:</b> We are rained out this afternoon. This first tryout has been rescheduled to Tuesday, July 13th at 6-8pm.  Please contact me 
                 if you can make this tryout. The forecast for the 17th doesn't look good either.  Thanks!
                 <br />
               </p>
