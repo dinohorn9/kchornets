@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import uniformPic from '/public/images/uniforms.jpg'
+import uniformPic from "/public/images/uniforms.jpg";
 
 export default function Home() {
   return (
@@ -35,8 +35,10 @@ export default function Home() {
                 KC Hornets 11u AA BB Tryout Update
               </div>
               <p className="text-gray-700 text-base">
-                <b className="text-red-500">Status:</b> We are rained out this afternoon. This first tryout has been rescheduled to Tuesday, July 13th at 6-8pm.  Please contact me 
-                if you can make this tryout. The forecast for the 17th does not look good either.  Thanks!
+                <b className="text-red-500">Status:</b> We are NOT going to have
+                tryouts this Tuesday, instead we will have tryouts this Saturday
+                July 17th. Everyone is invited, please let me know if your going
+                to be there.
                 <br />
               </p>
               <p>
