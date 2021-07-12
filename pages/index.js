@@ -51,7 +51,7 @@ export default function Home() {
             <div className="flex items-center">
               <div className="text-sm">
                 <p className="text-yellow-900 leading-none">Dino Horn</p>
-                <p className="text-yellow-600">July 8th</p>
+                <p className="text-yellow-600">July 12th</p>
               </div>
             </div>
           </div>
