@@ -152,7 +152,7 @@ export default function Home() {
 
               <p>
                 This week we moved kchornets.com to a new server with new
-                software, so we were down a few days. DNS proprogation and
+                software, so we were down a few days. DNS and
                 content formatting takes a little time.
               </p>
             </div>
