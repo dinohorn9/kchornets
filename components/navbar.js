@@ -4,7 +4,7 @@ import kchLogo from "/public/images/kch-logo.png";
 
 function Navbar() {
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-gray-900 p-6">
+    <nav className="flex items-center justify-between flex-wrap bg-gray-800 p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <Link href="/">
           <a>
@@ -36,7 +36,7 @@ function Navbar() {
             </a>
           </Link>
 
-          <Link href="/development">
+          {/* <Link href="/development">
             <a
               className="block mt-4 lg:inline-block 
             lg:mt-0 text-yellow-200 hover:text-white mr-4 no-underline"
@@ -48,7 +48,7 @@ function Navbar() {
             <a className="block mt-4 lg:inline-block lg:mt-0 text-yellow-200 hover:text-white mr-4 no-underline">
               PLAYER QUALITIES
             </a>
-          </Link>
+          </Link> */}
 
           {/* <Link href="/coaching">
             <a className="block mt-4 lg:inline-block lg:mt-0 text-yellow-200 hover:text-white no-underline">
@@ -56,13 +56,13 @@ function Navbar() {
             </a>
           </Link> */}
         </div>
-        <div>
+        {/* <div>
           <Link href="/tryout">
             <a className="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-yellow-500 hover:bg-white mt-4 lg:mt-0">
               Tryout Info
             </a>
           </Link>
-        </div>
+        </div> */}
       </div>
     </nav>
   );
