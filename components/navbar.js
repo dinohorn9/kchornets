@@ -28,7 +28,7 @@ function Navbar() {
           </svg>
         </button>
       </div>
-      {/* <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto hidden">
+      <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto hidden">
         <div className="text-sm lg:flex-grow ">
           <Link href="/about">
             <a className="block mt-4 lg:inline-block lg:mt-0 text-yellow-200 hover:text-white mr-4 no-underline">
@@ -46,15 +46,15 @@ function Navbar() {
           </Link>
           <Link href="/qualities">
             <a className="block mt-4 lg:inline-block lg:mt-0 text-yellow-200 hover:text-white mr-4 no-underline">
-              QUALITIES
+              PLAYER QUALITIES
             </a>
           </Link>
 
-          <Link href="/coaching">
+          {/* <Link href="/coaching">
             <a className="block mt-4 lg:inline-block lg:mt-0 text-yellow-200 hover:text-white no-underline">
               COACHING
             </a>
-          </Link>
+          </Link> */}
         </div>
         <div>
           <Link href="/tryout">
@@ -63,7 +63,7 @@ function Navbar() {
             </a>
           </Link>
         </div>
-      </div> */}
+      </div>
     </nav>
   );
 }
