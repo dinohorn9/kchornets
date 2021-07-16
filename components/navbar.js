@@ -13,8 +13,11 @@ function Navbar() {
         </Link>
       </div>
 
-      <div className="block lg:hidden">
-        <button className="flex items-center px-3 py-2 border rounded text-yellow-200 border-yellow-400 hover:text-white hover:border-white">
+      <div className="block hidden">
+        <button
+          className="flex items-center px-3 py-2 
+        border rounded text-yellow-200 border-yellow-400 hover:text-white hover:border-white"
+        >
           <svg
             className="fill-current h-3 w-3"
             viewBox="0 0 20 20"
@@ -25,8 +28,8 @@ function Navbar() {
           </svg>
         </button>
       </div>
-      <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-        <div className="text-sm lg:flex-grow">
+      {/* <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto hidden">
+        <div className="text-sm lg:flex-grow ">
           <Link href="/about">
             <a className="block mt-4 lg:inline-block lg:mt-0 text-yellow-200 hover:text-white mr-4 no-underline">
               ABOUT
@@ -34,14 +37,16 @@ function Navbar() {
           </Link>
 
           <Link href="/development">
-            <a className="block mt-4 lg:inline-block 
-            lg:mt-0 text-yellow-200 hover:text-white mr-4 no-underline">
+            <a
+              className="block mt-4 lg:inline-block 
+            lg:mt-0 text-yellow-200 hover:text-white mr-4 no-underline"
+            >
               DEVELOPMENT
             </a>
           </Link>
           <Link href="/qualities">
             <a className="block mt-4 lg:inline-block lg:mt-0 text-yellow-200 hover:text-white mr-4 no-underline">
-              QUALITES
+              QUALITIES
             </a>
           </Link>
 
@@ -51,14 +56,14 @@ function Navbar() {
             </a>
           </Link>
         </div>
-        <div hidden>
+        <div>
           <Link href="/tryout">
             <a className="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-yellow-500 hover:bg-white mt-4 lg:mt-0">
               Tryout Info
             </a>
           </Link>
         </div>
-      </div>
+      </div> */}
     </nav>
   );
 }
