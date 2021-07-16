@@ -10,11 +10,12 @@ export default function Home() {
         <title>KC Hornets | Home</title>
         <meta
           name="keywords"
-          content="kansas city, overland park, ks, 11u, AA, Baseball, Softball, Blue Valley Rec"
+          content="kansas city, overland park, ks, 11u, AA, Baseball, Softball, 
+          Blue Valley Rec"
         />
       </Head>
-      <div className="container w-full float-left bg-yellow-400">
-        <div className="w-3/4 float-left bg-white p-4">
+      <div className="container w-full float-left bg-yellow-400 gap-0 flex-wrap">
+        <div className="sm:w-3/4 float-left bg-white p-4">
           <div className="border-r mb-4 border-l border-t border-b border-yellow-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
             <div className="text-gray-900 font-bold text-xl mb-2">
               KC Hornets 11u AA BB Tryout Update
@@ -107,7 +108,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-1/4 float-right p-2">
+        <div className="sm:w-1/4 float-right p-2">
           <div
             className="border-r border-l border-t border-b
            border-yellow-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4
@@ -173,6 +174,32 @@ export default function Home() {
            mt-4"
           >
             <div className="text-gray-900 text-sm mb-2">
+              <strong>11u Uniform Order Due Date</strong>
+            </div>
+            <div className="text-gray-900 text-sm mb-2 ">
+              <strong>Due: </strong>July 24th, 2021
+            </div>
+          </div>
+
+          <div
+            className="border-r border-l border-t border-b
+           border-yellow-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4
+           mt-4"
+          >
+            <div className="text-gray-900 text-sm mb-2">
+              <strong>3rd Grade SB Uniform Order Due Date</strong>
+            </div>
+            <div className="text-gray-900 text-sm mb-2 ">
+              <strong>Due: </strong>July 24th, 2021
+            </div>
+          </div>
+
+          <div
+            className="border-r border-l border-t border-b
+           border-yellow-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4
+           mt-4"
+          >
+            <div className="text-gray-900 text-sm mb-2">
               <strong>
                 11u BB Tournament
                 <br />
@@ -201,7 +228,22 @@ export default function Home() {
             </div>
           </div>
 
-
+          <div
+            className="border-r border-l border-t border-b
+           border-yellow-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4
+           mt-4"
+          >
+            <div className="text-gray-900 text-sm mb-2">
+              <strong>
+                11u BB Tournament
+                <br />
+                3&2 October Fest
+              </strong>
+            </div>
+            <div className="text-gray-900 text-sm mb-2 ">
+              <strong>Due: </strong>Oct 15th-18th, 2021
+            </div>
+          </div>
         </div>
       </div>
     </>
