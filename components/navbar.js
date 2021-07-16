@@ -4,7 +4,7 @@ import kchLogo from "/public/images/kch-logo.png";
 
 function Navbar() {
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-gray-900 p-6">
+    <nav className="container mx-auto flex items-center justify-between flex-wrap bg-gray-900 p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <Link href="/">
           <a>
