@@ -14,7 +14,7 @@ export default function Home() {
         />
       </Head>
       <div className="container w-full float-left bg-yellow-400">
-        <div className="w-3/4 float-left bg-gray-200 p-4">
+        <div className="w-3/4 float-left bg-white p-4">
           <div className="border-r mb-4 border-l border-t border-b border-yellow-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
             <div className="text-gray-900 font-bold text-xl mb-2">
               KC Hornets 11u AA BB Tryout Update
@@ -41,9 +41,11 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="border-r  border-l border-t border-b border-yellow-400
+          <div
+            className="border-r  border-l border-t border-b border-yellow-400
            bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 
-            ">
+            "
+          >
             <div className="mb-8">
               <div className="text-gray-900 font-bold text-xl mb-2">
                 KC Hornets 11u AA Baseball Fall Tryout Info
@@ -119,7 +121,16 @@ export default function Home() {
             <div className="text-gray-900 text-sm mb-2 ">
               KC Hornet BB 11U Fall Tryout
             </div>
-            <div>July 17th, 2021</div>
+            <div className="text-gray-900 text-sm mb-2 ">
+              <strong>Location: </strong>Freedom Field #3
+              <br />
+              W 83rd St, Lenexa, KS 66227
+              <br />
+              <strong>Time: </strong>12-2pm
+              <br />
+              <strong>Arrival: </strong>11:45am
+              <br />
+            </div>
           </div>
         </div>
       </div>
