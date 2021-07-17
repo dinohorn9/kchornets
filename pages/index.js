@@ -32,7 +32,10 @@ export default function Home() {
                 Freedom Field #3.
               </a>{" "}
               Please arrive by 11:45, it should be fun! 
-              <br />
+              <p className="text-gray-700">
+              Fall Cost - Since we are an Independent Club, we do not have fees. We do try to find sponsors to help pay for custom player
+              bags, team banner, baseballs and tournament fees (like we did in the spring). Parents would be responsible for Uniforms, Golden
+              Glove league fees (around $170) and tournament fees(avg $50 per event).</p>
             </p>
             <p>
               <b>Contact Us:</b> dinohorn9@gmail.com
