@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
+import Events from "../components/events";
 import uniformPic from "/public/images/uniforms.jpg";
+
 
 export default function Home() {
   return (
@@ -9,50 +11,30 @@ export default function Home() {
         <title>KC Hornets | Home</title>
         <meta
           name="keywords"
-          content="kansas city, overland park, ks, 11u, AA, Baseball, Softball, Blue Valley Rec"
+          content="kansas city, overland park, ks, 11u, AA, Baseball, Softball, 
+          Blue Valley Rec"
         />
       </Head>
-      <div className="container mx-auto flex flex-wrap-reverse bg-yellow-400">
-        <div className="bg-red-400 flex-1">Blog Content</div>
-        <div className="bg-blue-400 flex-2">Right Side</div>
-      </div>
-
-      <div className="container mx-auto ">
-        <div className="w-full pt-4">
-          {/* <div
-            className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-            style={{ backgroundImage: "url('/images/card-left.jpg')" }}
-            title="Woman holding a mug"
-          ></div> */}
-          <div className="border-r border-yellow-400 border-l border-t border-b border-yellow-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-            <div className="mb-8">
-              {/* <p className="text-sm text-red-600 flex items-center">
-                <svg
-                  className="fill-current text-red-500 w-3 h-3 mr-2"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
-                </svg>
-                Members only
-              </p> */}
-              <div className="text-gray-900 font-bold text-xl mb-2">
-                KC Hornets 11u AA BB Tryout Update
-              </div>
-              <p className="text-gray-700 text-base">
-                <b className="text-red-500">Status:</b> We are NOT going to have
-                tryouts this Tuesday, instead we will have tryouts this Saturday
-                July 17th. Everyone is invited, please let me know if your going
-                to be there.
-                <br />
-              </p>
-              <p>
-                <b>Contact Us:</b> dinohorn9@gmail.com
-              </p>
-              <p>
-                <b>Call/Text:</b> 913.306.1393
-              </p>
+      <div className="container w-full float-left bg-yellow-400 gap-0 flex-wrap">
+        <div className="sm:w-3/4 float-left bg-white p-4">
+          <div className="border-r mb-4 border-l border-t border-b border-yellow-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+            <div className="text-gray-900 font-bold text-xl mb-2">
+              KC Hornets 11u AA BB Tryout Update
             </div>
+            <p className="text-gray-700">
+              <b className="text-red-500">Status:</b> We are NOT going to have
+              tryouts this Tuesday, instead we will have tryouts this Saturday
+              July 17th. Everyone is invited, please let me know if your going
+              to be there.
+              <br />
+            </p>
+            <p>
+              <b>Contact Us:</b> dinohorn9@gmail.com
+            </p>
+            <p>
+              <b>Call/Text:</b> 913.306.1393
+            </p>
+
             <div className="flex items-center">
               <div className="text-sm">
                 <p className="text-yellow-900 leading-none">Dino Horn</p>
@@ -60,25 +42,13 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="w-full p-4 ">
-          {/* <div
-            className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-            style={{ backgroundImage: "url('/images/card-left.jpg')" }}
-            title="Woman holding a mug"
-          ></div> */}
-          <div className="border-r border-yellow-400 border-l border-t border-b border-yellow-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+
+          <div
+            className="border-r  border-l border-t border-b border-yellow-400
+           bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 
+            "
+          >
             <div className="mb-8">
-              {/* <p className="text-sm text-red-600 flex items-center">
-                <svg
-                  className="fill-current text-red-500 w-3 h-3 mr-2"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
-                </svg>
-                Members only
-              </p> */}
               <div className="text-gray-900 font-bold text-xl mb-2">
                 KC Hornets 11u AA Baseball Fall Tryout Info
               </div>
@@ -138,36 +108,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="w-full p-4">
-          <div className="border-r border-yellow-400 border-l border-t border-b border-yellow-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-            <div className="mb-8">
-              {/* <p className="text-sm text-red-600 flex items-center">
-                <svg
-                  className="fill-current text-red-500 w-3 h-3 mr-2"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
-                </svg>
-                Members only
-              </p> */}
-              <div className="text-gray-900 font-bold text-xl mb-2">
-                Moved kchornets.com
-              </div>
 
-              <p>
-                This week we moved kchornets.com to a new server with new
-                software, so we were down a few days. DNS proprogation and
-                content formatting takes a little time.
-              </p>
-            </div>
-            <div className="flex items-center">
-              <div className="text-sm">
-                <p className="text-yellow-900 leading-none">Dino Horn</p>
-                <p className="text-yellow-600">July 8th</p>
-              </div>
-            </div>
-          </div>
+        <div className="sm:w-1/4 float-right p-2">
+          <Events />
         </div>
       </div>
     </>

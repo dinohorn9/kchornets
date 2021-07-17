@@ -2,13 +2,14 @@ import Footer from "./footer";
 import Navbar from "./navbar";
 
 function Layout({ children }) {
-  return (
-    <>
-      <Navbar />
-      {children}
-      <Footer />
-    </>
-  );
+    return (
+        <div className="container mx-auto">
+            <Navbar />
+            {children}
+            <Footer />
+            
+        </div>
+    )
 }
 
 export default Layout;
