@@ -6,6 +6,27 @@ function Events() {
       <div
         className="border-r border-l border-t border-b
            border-yellow-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4
+           mb-4 ring-2 ring-yellow-100"
+      >
+        <div className="text-gray-900 text-sm mb-2 text-center">
+          <strong>2021 10U/AA Baseball Spring/Summer</strong>
+        </div>
+        <div className="text-gray-900 text-sm mb-2 text-center">
+          W: <strong>32</strong> - L: <strong>11 - </strong>
+          T: <strong>3</strong>
+        </div>
+        <div className="text-center">-------------------</div>
+        <div className="text-gray-900 text-sm mb-2 text-center">
+          <strong>2021 2nd Grade Softball Spring/Summer</strong>
+        </div>
+        <div className="text-gray-900 text-sm mb-2 text-center">
+          W: <strong>8</strong> - L: <strong>2</strong>
+        </div>
+      </div>
+
+      <div
+        className="border-r border-l border-t border-b
+           border-yellow-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4
            flex flex-col justify-between leading-normal"
       >
         <div>

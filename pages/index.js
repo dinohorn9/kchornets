@@ -19,6 +19,34 @@ export default function Home() {
         <div className="sm:w-3/4 float-left bg-white p-4">
           <div className="border-r mb-4 border-l border-t border-b border-yellow-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
             <div className="text-gray-900 font-bold text-xl mb-2">
+              7/17 Saturday 11U/AA Tryouts Today!
+            </div>
+            <p className="text-gray-700">
+              <b className="text-red-500">Status:</b> Finally the weather is
+              looking good. Just a reminder, from 12pm-2pm we will have tryouts
+              are at{" "}
+              <a
+                href="https://www.lenexa.com/government/departments___divisions/parks___recreation/outdoor_recreation/parks/freedom_fields"
+                target="_blank"
+              >
+                Freedom Field #3.
+              </a>{" "}
+              Please arrive by 11:45, it should be fun! 
+              <br />
+            </p>
+            <p>
+              <b>Contact Us:</b> dinohorn9@gmail.com
+            </p>
+            <p>
+              <b>Call/Text:</b> 913.306.1393
+            </p>
+            <p>
+              <b>Posted: </b>July 17th, 2021
+            </p>
+          </div>
+
+          <div className="border-r mb-4 border-l border-t border-b border-yellow-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+            <div className="text-gray-900 font-bold text-xl mb-2">
               KC Hornets 11u AA BB Tryout Update
             </div>
             <p className="text-gray-700">
@@ -34,13 +62,9 @@ export default function Home() {
             <p>
               <b>Call/Text:</b> 913.306.1393
             </p>
-
-            <div className="flex items-center">
-              <div className="text-sm">
-                <p className="text-yellow-900 leading-none">Dino Horn</p>
-                <p className="text-yellow-600">July 12th</p>
-              </div>
-            </div>
+            <p>
+              <b>Posted: </b>July 13th, 2021
+            </p>
           </div>
 
           <div
@@ -99,12 +123,6 @@ export default function Home() {
                 <br />
               </p>
               <Image src={uniformPic} alt="KC Hornets Uniforms" />
-            </div>
-            <div className="flex items-center">
-              <div className="text-sm">
-                <p className="text-yellow-900 leading-none">Dino Horn</p>
-                <p className="text-yellow-600">July 8th</p>
-              </div>
             </div>
           </div>
         </div>
