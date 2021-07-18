@@ -8,7 +8,7 @@ function Navbar() {
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <Link href="/">
           <a>
-            <Image src={kchLogo} height="44" width="155" />
+            <Image src={kchLogo} alt="KC Hornets Logo" height="44" width="155" />
           </a>
         </Link>
       </div>
