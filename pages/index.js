@@ -18,6 +18,38 @@ export default function Home() {
         <div className="sm:w-3/4 float-left bg-white p-4">
           <div className="border-r mb-4 border-l border-t border-b border-yellow-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
             <div className="text-gray-900 font-bold text-xl mb-2">
+              Tryouts last Saturday and this Tuesday
+            </div>
+            <p className="text-gray-700">
+              Saturday tryouts went great. Thanks to all the kids and parents
+              that made it out. We had a few kids that could not make it so we
+              have private tryouts Tuesday. Since it is multiple kids, we
+              welcome any new tryouts that want to participate.
+              <br />
+            </p>
+            <p>
+              <a
+                href="https://www.lenexa.com/government/departments___divisions/parks___recreation/outdoor_recreation/parks/freedom_fields"
+                target="new"
+              >
+                Freedom Field #4.
+              </a>
+              <br />
+              W 83rd St, Lenexa, KS 66227
+              <br />
+              6-7:30pm
+              <br />
+            </p>
+            <p>
+              <b>Call/Text/Email:</b> 913.306.1393 / dinohorn9@gmail.com
+            </p>
+            <p>
+              <b>Posted: </b>July 18th, 2021 @ 8:26pm
+            </p>
+          </div>
+
+          <div className="border-r mb-4 border-l border-t border-b border-yellow-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+            <div className="text-gray-900 font-bold text-xl mb-2">
               7/17 Saturday 11U/AA Tryouts Today!
             </div>
             <p className="text-gray-700">
@@ -63,10 +95,7 @@ export default function Home() {
               <br />
             </p>
             <p>
-              <b>Contact Us:</b> dinohorn9@gmail.com
-            </p>
-            <p>
-              <b>Call/Text:</b> 913.306.1393
+              <b>Call/Text/Email:</b> 913.306.1393 / dinohorn9@gmail.com
             </p>
             <p>
               <b>Posted: </b>July 13th, 2021
@@ -91,11 +120,7 @@ export default function Home() {
                 <b>Arrival:</b> 11:45am
               </p>
               <p>
-                <b>Contact Us:</b> dinohorn9@gmail.com
-              </p>
-              <p>
-                <b>Call/Text:</b> 913.306.1393
-              </p>
+                <b>Call/Text/Email:</b> 913.306.1393 / dinohorn9@gmail.com</p>
               <p>
                 <b>Tryout Notes:</b> The team this fall will play about 10 games
                 in the Blue Valley Rec Golden Glove 11u AA league. We will play
