@@ -40,6 +40,7 @@ export default function Home() {
               6-7:30pm
               <br />
             </p>
+            <p className="text-red-600">Also, we did not get contact information from all the parents. If you feel you forgot, please send me that info right away, thanks.</p>
             <p>
               <b>Call/Text/Email:</b> 913.306.1393 / dinohorn9@gmail.com
             </p>
