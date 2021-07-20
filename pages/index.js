@@ -32,7 +32,7 @@ export default function Home() {
                 href="https://www.lenexa.com/government/departments___divisions/parks___recreation/outdoor_recreation/parks/freedom_fields"
                 target="new"
               >
-                Freedom Field #4.
+                Freedom Field #3.
               </a>
               <br />
               W 83rd St, Lenexa, KS 66227
