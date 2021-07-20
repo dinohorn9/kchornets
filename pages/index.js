@@ -27,6 +27,7 @@ export default function Home() {
               welcome any new tryouts that want to participate.
               <br />
             </p>
+            <p className="text-yellow-600 text-lg">Tuesday, July 20th, 2021</p>
             <p>
               <a
                 href="https://www.lenexa.com/government/departments___divisions/parks___recreation/outdoor_recreation/parks/freedom_fields"
