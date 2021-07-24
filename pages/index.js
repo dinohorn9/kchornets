@@ -18,6 +18,20 @@ export default function Home() {
         <div className="sm:w-3/4 float-left bg-white p-4">
           <div className="border-r mb-4 border-l border-t border-b border-yellow-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
             <div className="text-gray-900 font-bold text-xl mb-2">
+              Friday Update and Parent Info
+            </div>
+            <p className="text-gray-700">
+              It has been a busy end of the week. I will send out an update to the parents soon. We have our team set, so if you have not received
+              a call from me, thank you and your kids time and effort. Your welcome to try out in the future. Over the past three weeks we have had five public and
+              private tryouts. It was a good sized group of talented kids. I know there a several club options for the boys in the city, so hopefully everyone can
+              find a home.
+            </p>
+            <p>
+              <b>Posted: </b>July 23rd, 2021 @ 8:15pm
+            </p>
+          </div>
+          <div className="border-r mb-4 border-l border-t border-b border-yellow-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+            <div className="text-gray-900 font-bold text-xl mb-2">
               Tryouts last Saturday and this Tuesday
             </div>
             <p className="text-gray-700">
@@ -41,7 +55,10 @@ export default function Home() {
               6-7:30pm
               <br />
             </p>
-            <p className="text-red-600">Also, we did not get contact information from all the parents. If you feel you forgot, please send me that info right away, thanks.</p>
+            <p className="text-red-600">
+              Also, we did not get contact information from all the parents. If
+              you feel you forgot, please send me that info right away, thanks.
+            </p>
             <p>
               <b>Call/Text/Email:</b> 913.306.1393 / dinohorn9@gmail.com
             </p>
@@ -49,7 +66,6 @@ export default function Home() {
               <b>Posted: </b>July 18th, 2021 @ 8:26pm
             </p>
           </div>
-
           <div className="border-r mb-4 border-l border-t border-b border-yellow-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
             <div className="text-gray-900 font-bold text-xl mb-2">
               7/17 Saturday 11U/AA Tryouts Today!
@@ -84,7 +100,6 @@ export default function Home() {
               <b>Posted: </b>July 17th, 2021
             </p>
           </div>
-
           <div className="border-r mb-4 border-l border-t border-b border-yellow-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
             <div className="text-gray-900 font-bold text-xl mb-2">
               KC Hornets 11u AA BB Tryout Update
@@ -103,7 +118,6 @@ export default function Home() {
               <b>Posted: </b>July 13th, 2021
             </p>
           </div>
-
           <div
             className="border-r  border-l border-t border-b border-yellow-400
            bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 
@@ -122,7 +136,8 @@ export default function Home() {
                 <b>Arrival:</b> 11:45am
               </p>
               <p>
-                <b>Call/Text/Email:</b> 913.306.1393 / dinohorn9@gmail.com</p>
+                <b>Call/Text/Email:</b> 913.306.1393 / dinohorn9@gmail.com
+              </p>
               <p>
                 <b>Tryout Notes:</b> The team this fall will play about 10 games
                 in the Blue Valley Rec Golden Glove 11u AA league. We will play
@@ -166,4 +181,4 @@ export default function Home() {
       </div>
     </>
   );
-}
+} 

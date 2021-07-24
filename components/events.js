@@ -92,7 +92,7 @@ function Events() {
           <strong>11u Uniform Order Due Date</strong>
         </div>
         <div className="text-gray-900 text-sm mb-2 ">
-          <strong>Due: </strong>July 24th, 2021
+          <strong>Due: </strong>July 30th, 2021
         </div>
       </div>
 
@@ -105,7 +105,7 @@ function Events() {
           <strong>3rd Grade SB Uniform Order Due Date</strong>
         </div>
         <div className="text-gray-900 text-sm mb-2 ">
-          <strong>Due: </strong>July 24th, 2021
+          <strong>Due: </strong>July 30th, 2021
         </div>
       </div>
 
